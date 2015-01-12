@@ -1,0 +1,49 @@
+	/*
+	public void insert(int x ){
+		
+		BinaryNode newnode = new BinaryNode(x);
+		BinaryNode current = new BinaryNode();
+		
+		
+		
+		if(root == null){
+			root = newnode;
+		}
+		else{
+			
+			
+			current = root;
+			BinaryNode parent = new BinaryNode();
+			
+			while(true)
+			{
+				parent = current;
+				
+				if(x<current.data)
+				{
+					current=current.left;
+					if(current == null){
+						parent.left=newnode;
+						return;
+					}
+				} else {
+					
+					current=current.right;
+					if(current==null){
+						parent.right=newnode;
+						return;
+					}
+				}
+			}
+			
+			
+		}
+		
+		
+	}
+	*/
+	
+	
+	
+	
+	
